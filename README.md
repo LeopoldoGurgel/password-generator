@@ -10,7 +10,7 @@ This project delivers a password generator using some brain frying Javascript lo
 
 ## RESOURCES
 
-A lot of cool new features were added to the script of this project. Most of them came from UofT coding bootcamp, such as alert, prompt and confirm methods, if statements, building strings, math.floor and math.random. But at some point I had to make a string into a number and that came from StackOverflow.
+A lot of cool new features were added to the script of this project. Most of them came from UofT coding bootcamp, such as alert, prompt and confirm methods, if statements, building strings, math.floor and math.random. But at some point I had to make a string into a number, that came from StackOverflow and to check is a value is a number or nor, with isNaN method, that was from W3schools.
 
 ## INSTRUCTIONS
 

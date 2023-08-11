@@ -28,12 +28,12 @@ function generatePassword() {
   // ADDING A "+" BEFORE THE PROMPT, IT SEEMED TOO GOOD TO BE
   // TRUE. SO I DIDN'T TRUST IT AND WENT FOR PARSEINT.
 
-  var passwordLength = parseInt(prompt("How long do you want your password to be? Choose a value between 8 and 128", " "));
+  var passwordLength = parseInt(prompt("How long do you want your password to be? Choose a number between 8 and 128", " "));
   
   var lengthErr;
 
-  if(passwordLength < 8 || passwordLength > 120) {
-    lengthErr = confirm("ERROR! Choose a password length between 8 and 120 characters!");
+  if(passwordLength < 8 || passwordLength > 120  || isNaN(passwordLength)) {
+    lengthErr = confirm("ERROR! The password length must be a NUMBER between 8 and 120 characters!");
     generatePassword();
     return;
   }
